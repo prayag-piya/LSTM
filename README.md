@@ -1,6 +1,6 @@
 # Time Series Prediction Using LSTM and Comparison with Other Algorithms
 
-This project explores time series data prediction using several algorithms, with a primary focus on Long Short-Term Memory (LSTM) networks. The comparison includes Recurrent Neural Networks (RNNs) and Gradient Boosting Machines (GBMs). Our dataset includes stock prices collected over time, allowing for an evaluation of each algorithm’s performance in handling sequential, temporal data.
+This project explores time series data prediction using several algorithms, with a primary focus on Long Short-Term Memory (LSTM) networks. The comparison includes Recurrent Neural Networks (RNNs) and Gradient Boosting Machines (GBMs). Our dataset includes stock prices collected over time, allowing for an evaluation of each algorithm’s performance in handling sequential, temporal data and includes implementing LSTM from scratch.
 
 ## Project Structure
 
@@ -14,10 +14,9 @@ Each model is structured with a comparable configuration for a fair comparison i
 
 Long Short-Term Memory (LSTM) networks are specialized Recurrent Neural Networks (RNNs) that address the challenge of long-term dependencies in sequence data. Unlike standard RNNs, which can struggle to maintain information over long sequences, LSTM cells retain relevant information across timesteps, making them ideal for time series forecasting.
 
-In our project:
-- **LSTM Architecture**: Consists of multiple LSTM layers with Dropout layers for regularization, followed by a Dense output layer.
-- **Activation Functions**: `ReLU` is used in hidden layers to introduce non-linearity, while the `Sigmoid` function is used in the output layer for probability distribution.
-- **Optimizer**: Gradient Descent is employed for backpropagation through time to minimize loss.
+![Prediction Results](images/lstm.png)
+
+*Figure 1: Prediction of LSTM model.*
 
 ## Model Comparisons
 
